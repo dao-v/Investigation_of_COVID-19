@@ -41,4 +41,9 @@ Although the dataset from Wolfram contains significantly more observations (rows
 Suspiciously, in the Wolfram dataset, there were a few patients who "recovered" within a single or couple days after being confirmed/tested. Biologically, that is highly unlikely as detection of the viral genome in the bloodstream would mean that the patient would need more time to eliminate the virus from the body. To be considered "recovered" in those couple of days would mean that the viral "load" is so small in the bloodstream that testing the blood again for the viral genome would have a high chance of the blood extracted to not contain any viral components. (This should result in a true positive where the body has totally eliminated the virus or a false where the blood extract missed/did not extract the virus.) But then detection in the initial blood test would have been quite small in these cases.
 
 ### Script Considerations:
-The script is prepared to do analysis on the Wolfram dataset based continent. However, since there is only 443 observations being considered, the data for each continent would be too small for meaningful analysis. 
+The script is prepared to do analysis on the Wolfram dataset based continent. However, since there is only 443 observations being considered, the data for each continent would be too small for meaningful analysis. <br><br>
+The script may take 10-30 minutes to run depending on your CPU.<br>
+Because previous experience of Wolfram containing a lot of website errors, a backup folder is avaliable in this repository. Simply copy the backup into the "Data" folder and skip the second cell in the Jupyter Notebook.
+
+<br><br><br>
+Version 1.0
