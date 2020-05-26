@@ -4,10 +4,10 @@ Examining the survival and death rates of infected patients, and creating a pred
 
 This single script is used to examine the survival and death rates of individuals who have recovered or are deceased. Also, in this script are different Random Forest models that are used to predict if an infected patient will recover from the infection. Data is taken from three sources:<br><br>
     - Wolfram Data Repository, which contains in-depth data on infected patients:<br>
-    https://datarepository.wolframcloud.com/resources/Patient-Medical-Data-for-Novel-Coronavirus-COVID-19)<br>
+    https://datarepository.wolframcloud.com/resources/Patient-Medical-Data-for-Novel-Coronavirus-COVID-19)<br><br>
     - John Hopkins University, which the data is broader and only considers quantitative information rather than medical information:<br>
     https://github.com/CSSEGISandData/COVID-19<br>
-      (For a more visually interactive look into the data, visit: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)<br>
+      (For a more visually interactive look into the data, visit: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)<br><br>
     - Euronews, which is similar to the data that John Hopkins University provides:<br>
         https://www.euronews.com/2020/05/25/covid-19-coronavirus-breakdown-of-deaths-and-infections-worldwide<br>
         (Note that even though the URL link above is not updated to the current link, the provided link will redirect to the most updated webpage.)<br><br><br>
