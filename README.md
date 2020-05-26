@@ -43,7 +43,7 @@ Suspiciously, in the Wolfram dataset, there were a few patients who "recovered" 
 ### Script Considerations:
 The script is prepared to do analysis on the Wolfram dataset based continent. However, since there is only 443 observations being considered, the data for each continent would be too small for meaningful analysis. <br><br>
 The script may take 10-30 minutes to run depending on your CPU.<br>
-Because previous experience of Wolfram containing a lot of website errors, a backup folder is avaliable in this repository. Simply copy the backup into the "Data" folder and skip the second cell in the Jupyter Notebook.
+From previous experiences with Wolfram and the webpage containing a lot of errors, a backup folder with the dataset is avaliable in this repository. Simply copy the backup dataset into the "Data" folder and skip the second cell in the Jupyter Notebook.
 
 <br><br><br>
 Version 1.0
