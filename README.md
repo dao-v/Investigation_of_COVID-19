@@ -14,9 +14,9 @@ This single script is used to examine the survival and death rates of individual
     
 
 ### To Run This Script:<br>
-    - Simply run all the cells in the Jupyter Notebook and all the information will be populated.<br>
-        - This script will download all the necessary datasets from Wolfram and John Hopkins but not Euronews.<br>
-            - Because Euronews encrypts their data in JavaScript, Python was not able to decode the JavaScript in the HTML file through web parsing. As a result, the statistics were manually added to the script as of 5/26/2020. <br>
+    - Simply run all the cells in the Jupyter Notebook and all the information will be populated.
+        - This script will download all the necessary datasets from Wolfram and John Hopkins but not Euronews.
+            - Because Euronews encrypts their data in JavaScript, Python was not able to decode the JavaScript in the HTML file through web parsing. As a result, the statistics were manually added to the script as of 5/26/2020. 
     
     - Any recently updated versions of these packages should work:
         - Pandas, NumPy, Seaborn, Matplotlib, Sklearn, BeautifulSoup(4)
@@ -34,9 +34,8 @@ The average length of time a deceased patient had the infection (from their firs
 The highest accuracy predicted (~95.5%) from the Random Forest variants took in all possible variables from the Wolfram dataset (age, sex, symptoms, previous conditions, and length of infection).<br>
     The second highest accuracy predicted a ~94.6% only using the age, sex, length of infection, and whether or not the patient had a previous condition (true or false instead of spreading each previous condition in the highest performance model). In this model, having a previous condition (in general) was weighted similarly to age with weights of ~0.20 and ~0.22, respectively). However, the length of infection had the largest weight of ~0.56.<br><br>
     
-In conclusion, it seems that the longer a patient fought the infection, the more likely they were to survive. In addition, their age also contributed to their survival rate.
+In conclusion, it seems that the longer a patient fought the infection, the more likely they were to survive. In addition, their age also contributed to their survival rate.<br><br>
     
-<br><br>
 ### Conditions of Data and Analysis:<br>
 Although the dataset from Wolfram contains significantly more observations (rows) than the 443 analyzed, the data for these observations were incomplete. As a result, they were removed from the analysis because many factors are unclear, such as whether the patient was really infected with COVID-19 and not another viral infection like influenza.<br><br>
 Suspiciously, in the Wolfram dataset, there were a few patients who "recovered" within a single or couple days after being confirmed/tested. Biologically, that is highly unlikely as detection of the viral genome in the bloodstream would mean that the patient would need more time to eliminate the virus from the body. To be considered "recovered" in those couple of days would mean that the viral "load" is so small in the bloodstream that testing the blood again for the viral genome would have a high chance of the blood extracted to not contain any viral components. (This should result in a true positive where the body has totally eliminated the virus or a false where the blood extract missed/did not extract the virus.) But then detection in the initial blood test would have been quite small in these cases.
